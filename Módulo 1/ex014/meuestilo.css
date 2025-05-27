@@ -1,0 +1,30 @@
+@charset "UTF-8";
+body {
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(163, 163, 248);
+    font-size: 15px;
+}
+h1 {
+    background-color: rgb(136, 136, 238);
+    text-align: center;
+    font-style: italic;
+}
+.center-bloco  {
+ display: block;
+ margin:auto;
+ width: 300px;
+ text-align: center;
+}
+.center-bloco {
+    display: block;   /* vira bloco pra aceitar margin auto */
+    width: 1000px;         /* tamanho que você pediu */
+    height: auto;         /* mantém a proporção */
+    margin: 8px auto;     /* centraliza a figura */
+}
+iframe {
+    display:block;
+    width: 1000px;
+    height: 500px;
+    
+}

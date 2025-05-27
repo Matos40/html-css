@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="meuestilo.css">
+    <link rel="shortcut icon" href="favicon2.ico" type="image/x-icon">
+    <title>resumo</title>
+</head>
+    <h1>Revisão de Textos</h1>
+    <h2>Texto Negrito</h2>
+    <strong>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos dolorum consequatur accusantium nemo, nisi suscipit neque illum atque sunt. Eius adipisci inventore, assumenda sint alias debitis? Explicabo cumque quis nobis.</p>
+    </strong>
+    <h2>Texto Itálico</h2>
+    <em>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam possimus aperiam sed tempore! Ea, voluptatum dolor quis omnis pariatur rerum enim perferendis repellendus inventore reprehenderit! Quisquam doloremque nam fuga quod!</p>
+    </em>
+    <h2>Texto Sublinhado</h2>
+    <ins>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo aut dolorum, itaque iure tempore nesciunt maiores tempora non unde sequi dolor veritatis repellat doloribus labore hic nobis repellendus excepturi placeat.</p>
+    </ins>
+    <h2>Texto Deletado</h2>
+    <del>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate neque iure dicta distinctio maxime cupiditate nemo nostrum soluta deleniti. Enim rem accusamus culpa, labore sed quas nam perferendis a molestias.</p>
+    </del>
+    <h2>Texto Marcado</h2>
+
+        <p><mark>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus id aut impedit error enim consequatur voluptatum recusandae ipsa repellat laudantium minima qui laboriosam commodi quo modi ipsam, deserunt sunt voluptatem.</mark></p>
+
+<h1>Imagens e Emojis</h1>
+<div class="center-bloco">
+<h2>Inserindo Imagens</h2>
+<img width="300px" src="Imagens/ControlNet_00010_.png" alt="imagem comfyui">
+<H2>Inserindo Emoji</H2>
+<p>&#x1FAE4;&sccue;</p>
+
+    <h1>Trabalhando com Links</h1>
+    <h2>Links Internos</h2>
+    <p>Vá para a <a href="pag2.html" target="_self" rel="next">próxima página</a></p>
+    <h2>Links Externos</h2>
+    <p>Acesse nosso <a href="https://www.youtube.com/watch?v=xjJoDcLVvdE" target="_blank" rel="external">canal no Youtube</a></p>
+    <h2>Link para Download</h2>
+    <p><a href="Livro/HTML5_tags_revisados.pdf" download="HTML5_tags_revisados.pdf" type="application/pdf">Baixe aqui</a> nosso PDF</p>
+    <p><a href="Livro/HTML5_tags_revisados.rar" download="HTML5_tags_revisados.rar" type="application/zip">Baixe aqui</a> nosso PDF/Zip</p>
+
+<h1>Inserindo Áudio e Vídeo</h1>
+<h2>Inserindo Áudio</h2>
+<audio preload="metadata" controls loop>
+<source src="MP3/Alias - Anno Domini Beats.mp3" type="audio/mpeg" >
+<p>Seu navegador não suporta arquivo de áudio</p>
+</audio>
+<h2>Inserindo Vídeo</h2>
+<p>Vídeo Interno</p>
+<video preload="metadata" width="250" poster="Imagens/condelta_image_00004_.png" src="video/espada.mp4" controls type="video/mp4"></video>
+<p>Vídeo Externo</p>
+<iframe width="460" height="315" src="https://www.youtube.com/embed/NyuRqKgP2T4?si=lPKXQEwf1MlTxyzf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<h1>Imagens Dinâmicas</h1>
+<picture>
+    <source media="(min-width:1025px)" srcset="Imagens\image-g.png" type="image/png">
+    <source media="(min-width:725px)" srcset="Imagens\image-m.png" type="image/png">
+    <img src="Imagens/image-p.png" alt="imagem1">
+</picture>
+</div>
+<h1>Listas Ordenadas / Não Ordenadas</H1>
+    <h2>Listas Ordenadas</h2>
+    <ol type="I">
+        <li>Acordar</li>
+        <li>Tomar Banho</li>
+        <li>Tomar café</li>
+        <ul>
+            <li>Cereal</li>
+            <li>Suco</li>
+        </ul>
+        <li>Arrumar-se</li>
+        <li>Ir Trabalhar</li>
+    </ol>
+    <h2>Listas Não Ordenadas</h2>
+    <ul type="circle">
+        <li>Café</li>
+        <li>Feijão</li>
+        <li>Açúcar</li>
+        <li>Leite</li>
+        <li>Farinha</li>
+    </ul>
+    <h1>Citacão Simples e em Bloco</h1>
+    <h2>Citação Simples</h2>
+    <p>Uma vez o sábio falou: <q>Quem quer, arruma meios</q></p>
+    <h2>Citação em Bloco</h2>
+    <p>Quando a citação e maior que uma linha:
+    <blockquote cite="https://dicionario.priberam.org/adaptativas">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>At voluptatum necessitatibus laboriosam non tempore dicta suscipit esse itaque in consequatur eius ut <br>exercitationem id nulla magni praesentium, consectetur rem explicabo?</blockquote>
+    </p>
+<h1>Síglas e Formatalção para Código</h1>
+<h2>Explicando Síglas</h2>
+<p>Estou estudando <abbr title="HyperText Mackup Language">HTML</abbr></p>
+<h2>Formatalção para Código</h2>
+<p><code>google.c.u=function(a)var b=google.timers.load.m,c=!0;if(b[a])</code> </p>
+<p>Manter Formatação de código</p>
+<pre><p>cancelSettingsLink.click(function () {
+    if ('True' == 'True') {
+      usaAcordoCheck.checked = true;
+      antesAcordoRadio.disabled = false;
+      depoisAcordoRadio.disabled = false;
+      //antesAcordoRadio.removeAttr("disabled");
+      //depoisAcordoRadio.removeAttr("disabled");
+      if ('False' == 'True')
+        antesAcordoRadio.checked = true;
+      else
+        depoisAcordoRadio.checked = true;
+    } else {
+      if ('False' == 'True')
+        antesAcordoRadio.checked = true;</p></pre>
+</body>
+</html>

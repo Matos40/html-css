@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+body {
+    
+    font-family: Arial, Helvetica, sans-serif;
+    
+background-image: linear-gradient(to left, #7cfef0, #05A293)
+}
+main {
+    background-color: white;
+    width: 1400px;
+    margin: auto;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.327) 
+}
+main mark { background-color: #dcdedda1;
+    }
+main h3:nth-last-of-type(-n+2) {
+    text-align: left;
+}
+h1 {
+    color: #000000;
+    background-color: #f3c49e;
+    text-align: center;
+    font-size: 300%;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.427);
+}
+h2 {
+    color: #3f5d62;
+    background-color: #f3e8df;
+    text-align: center;
+    font-size: 200%;
+    
+}
+.org-link {
+background-color: white;
+    width: 1400px;
+    margin: auto;
+    padding: 15px;
+    border-radius: 8px;
+    mark { background-color: #dcdedda1;}
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.327)
+}
+.org-link h3 {
+    text-align: left;
+}
+
+h3 {
+    background-color: rgb(119, 207, 208);
+    color: #8f6e53;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 150%;
+}
+
+p {
+text-align: justify;
+font-size: 110%;
+}
+
+.bloco-videos {
+    display: flex;
+    justify-content:center;
+    margin: 40px;
+    gap: 20px;
+    
+}
+.bloco-videos video {
+    width: 250px;
+    height: auto;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.827);
+    border-radius: 8px;
+}
+.externo {
+  background-color: white;
+  width: 100%;
+  max-width: 1400px;
+  margin: auto;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.327);
+  display: grid;
+  justify-content: center;
+}
+
+.externo h3 {
+  background-color: #a9e5e5;     /* COR DO FUNDO */
+  width: 100%;                   /* FAZ OCUPAR TODA A LARGURA DO PAI */
+  padding: 10px;
+  margin: 0 0 20px 0;
+  text-align: center;
+  box-sizing: border-box;        /* GARANTE QUE o padding não estoure o width */
+  border-radius: 8px 8px 0 0;    /* Arredonda só os cantos de cima */
+}
+
+audio {
+    display: block;
+    margin: auto;
+    width: 500px;
+}
+
+.galeria-imagens {
+  background-color: white;
+  width: 100%;
+  max-width: 1400px;
+  margin: auto;
+  padding: 15px;
+  display:block;              /* Alinha lado a lado */
+  flex-wrap: wrap;            /* Quebra linha se precisar */
+  justify-content: center;    /* Centraliza horizontalmente */
+  gap: 20px;                  /* Espaço entre as imagens */
+  box-sizing: border-box;
+border-radius: 8px;
+}
+
+.galeria-imagens img {
+  width: 300px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.327);
+}
+
+
+.listas {
+    padding: 15px;
+    border-radius: 8px;
+    text-align: left;
+    font-size: 20px;
+    background-color: white;
+    width: 1400px;
+    margin: auto;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.327)
+}
+.listas h3 {
+text-align:left
+}

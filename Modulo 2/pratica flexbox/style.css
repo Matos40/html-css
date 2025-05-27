@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+.galeria {
+display: flex;
+justify-content: ;
+align-items: center;
+max-width: 1000px;
+margin: 0 auto;
+gap: 45px;
+flex-wrap: wrap;
+background-color: beige;
+padding: 30px;
+border-radius: 10px;
+}
+
+.itens {
+width: 200px;          
+height: 200px;
+background-color: rgb(135, 233, 233);
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 34px;
+font-weight: bold;
+border-radius: 8px;
+border: solid, rgb(98, 177, 223);
+color: blue;
+}
+
+body h2 {
+    text-align: center;
+    font-size: 3em;
+    border: solid;
+    background-image: linear-gradient(90deg, rgb(176, 138, 241) 20%, yellow, transparent 90%);
+}
+
+body h1 {
+    background-image: linear-gradient(90deg, rgb(176, 138, 241) 20%, yellow, transparent 90%);
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+<style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(114, 114, 114);
+            margin: 0;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        header {
+            background-color: white;
+            margin: auto;
+            padding: 5px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: lightslategray;
+            padding: 7px;
+            margin: 5px;
+        }
+
+        nav > a {
+            text-decoration:none;
+            color: white;
+            margin: 10px;
+            font-weight: bolder;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+            background-color: rgb(15, 16, 16);
+        }
+
+        main {
+            background-color: white;
+            margin: 10px;
+            padding: 10px;
+        }
+
+        article > aside {
+            background-color: rgb(150, 151, 153);
+        
+        }
+        article {
+            background-color: rgb(206, 207, 208);
+            padding: 5px 5px 1px 5px;
+            border-radius: 20px 0px;
+            box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.467); 
+        }
+
+        footer {
+            background-color: black;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            padding: 5px;
+        }
+        footer > p {
+            margin: 0px;
+        }
+</style>
+</head>
+<body>
+    <header>
+        <h1>Site Ray</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+<section id="assuntos">
+    <article>
+        <p>Politica Técnologia Ciência</p>
+    </article>
+</section>
+
+
+  <section id="noticias">
+    <article>
+        <h2>Notícia do Mundo</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo maxime odit rem porro vero, doloribus facere incidunt sit nihil, voluptas suscipit impedit! Esse cupiditate, numquam aliquid voluptatibus consequatur ipsam culpa!</p>
+        <aside>
+            <p>Artigo escrito por Israel Matos</p>
+        </aside>
+</article>
+
+    </main>
+    <footer>
+        <p>Desenvolvido por Israel</p>
+    </footer>
+</body>
+</html>

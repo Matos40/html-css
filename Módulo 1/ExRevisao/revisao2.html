@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon2.ico" type="image/x-icon">
+    <title>Revisão 2</title>
+    <link rel="stylesheet" href="estilo_revisao.css">
+</head>
+<body>
+    <h1>Revisão Gerall</h1>
+    <main>
+        <h2>Trabalhando com Textos</h2>
+        <h3>Trabalhando com Textos</h3>
+        <p>Textos Itálicos: <em>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ab officia porro, beatae ut similique, esse quis, repudiandae quidem praesentium itaque eligendi nemo soluta eius. Possimus non facere quaerat officia?</em></p>
+        <p>Textos Negritos: <strong>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis minus quisquam recusandae vel. Quam cupiditate quas ut quisquam? Neque aut odio quam ea voluptas impedit minus et unde ab dolor.</strong></p>
+        <p>Textos Sublinhados: <ins>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem laborum doloribus, minima aspernatur, nostrum error inventore vero animi numquam explicabo alias nam quibusdam commodi hic? Deserunt eveniet aperiam in mollitia!</ins></p>
+        <p>Textos Marcados: <mark>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero excepturi unde sunt maiores repellendus mollitia nulla eveniet numquam, ducimus laudantium porro aut aspernatur magni harum itaque, fugit, molestias illo dignissimos?</mark></p>
+        <p>Texto Deletado: <del>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, modi? Rem, inventore nostrum debitis aliquam voluptatum deleniti dolor, minus dicta, quos explicabo architecto. Nihil voluptatem ab consequuntur nisi corrupti culpa.</del></p>
+        <h3>Citação em frases:</h3>
+        <p>Como já diziam: <q>Quem com os porcos andam, farelo come.</q></p>
+        <h3>Citação em bloco:</h3>
+            <p><blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum ipsa sapiente a atque sit minus. Impedit soluta itaque saepe facere dignissimos, eum vitae adipisci, error doloremque quod ab. Repudiandae, <br>vero?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error nostrum cumque optio adipisci repellat quos vitae vero, maiores ducimus corrupti possimus tempora cupiditate tempore. <br>Totam vel assumenda distinctio similique quis Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni in reiciendis, unde ipsam sit facere nulla nisi, animi deserunt odio officia iure eaque. Saepe sint placeat aliquam quis consequatur velit.</blockquote></p>
+    </main>
+    <div class="org-link"><h2>Trabalhando com Links</h2>
+    <h3>Links para Download</h3>
+    <p><a href="Livro/HTML5_tags_revisados.pdf" download="HTML5 tags revisados.pdf" type="application/pdf">Baixe aqui</a> seu PDF</p>
+    <p><a href="Livro/HTML5_tags_revisados.rar" download="HTML5 tags revisados.rar" type="application/zip">Baixe aqui</a> seu <abbr title="Arquivo compactado">PDF/Zip</abbr></p>
+    <h3>Links Internos</h3>
+    <p><a href="2pag.html" target="_self" rel="next">Próxima Página</a></p>
+    <h3>Links Externos</h3>
+    <p><a href="https://www.youtube.com/@israelmatos9054" target="_blank" rel="external">Meu Canal</a> do Youtube</p>
+    <h2>Inserindos Imagens e Emojis</h2>
+    <h3>Trabalhando com Imagens</h3></div>
+    <div class="galeria-imagens">
+        <img src="Imagens/condelta_image_00004_.png" alt="amarelinho">
+        <img src="Imagens/ControlNet_00002_.png" alt="mulher albina">
+        <img src="Imagens/ControlNet_00010_.png" alt="mulher ruiva">
+</div>
+<div class="audio-video">
+    <h3>Emojis e Caracteses Especiais</h3>
+<p>&#x1F970; &scap;</p>
+
+    <h2>Áudio e Vídeo</h2>
+    <h3>Trabalhando com Áudios</h3>
+    <audio src="MP3/Alias - Anno Domini Beats.mp3" preload="metadata" controls loop type="audio/mpeg"></audio>
+<h3>Ouça KEXP 90.3 FM</h3>
+<audio controls>
+<source src="http://live-aacplus-64.kexp.org/kexp64.aac" type="audio/aac">
+Seu navegador não suporta o player de áudio.
+</audio>
+    <h3>Videos Internos</h3></div>
+    <div class="bloco-videos">
+    <video src="video/chapeu.mp4" controls></video>
+    <video src="video/espada no deserto.mp4" controls></video>
+    <video src="video/espada.mp4" controls></video>
+    <video src="video/violino.mp4" controls></video>
+    </div>
+    <div class="externo"><h3>Videos Externos</h3>
+    <iframe width="700" height="400" src="https://www.youtube.com/embed/KGD0qpgBfss?si=JpaoOj4Wjl3rZT28" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+    <div class="listas">
+    <h2>Imagens Dinâmicas</h2>
+    <picture>
+        <source media="(min-width:1025px)" srcset="Imagens\image-g.png" type="image/png">
+        <source media="(min-width:725px)" srcset="Imagens\image-m.png" type="image/png">
+        <img src="Imagens/image-p.png" alt="imagem funciona">
+    </picture>
+    <p></p>
+    <h2>Listas Ordenadas e Não Ordenadas</h2>
+        <h3>Listas Ordenadas</h3>
+        <p>Listas que precisam seguir uma ordem:</p>
+        <ol type="I">
+                <li>Nascer</li>
+                <div class="teste">
+                    <li>Crescer</li>
+                    <ul type="square">
+                        <li>Viver de verdade</li>
+                        <li>Se lamentar</li>
+                </div>
+            </ul>
+            <li>Morrer</li>
+        </ol>
+            <h3>Listas Não Ordemadas</h3>
+            <p>Listas que independem de oredem:</p>
+            <ul>
+                <li>Pão</li>
+                <li>Queijo</li>
+                <li>Farinha</li>
+            </ul>
+            </div>
+            </body>
+            </html>
+        
